@@ -5,9 +5,9 @@
 using namespace std;
 
 int main(){
-  int a= 3;
+  int big = 98;
+  string a = (big>90)? "high pass":(big < 60)?"fail":"pass";
   cout<<a<<endl;
-  double b = 3l;
 }
 /*
                    _ooOoo_
